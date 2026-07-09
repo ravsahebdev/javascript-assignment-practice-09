@@ -500,12 +500,12 @@ console.log(labrador1.sweem());
 // 15
 //  Concepts Tested
 // - Static Methods
-class MathHelper {
+class MathG {
         static add(a, b) {
                 return a + b;
         }
 }
-console.log(MathHelper.add(20, 50));
+console.log(MathG.add(20, 50));
 
 //  Question 24 — Static Property
 // Create:
