@@ -805,6 +805,7 @@ classRoom.addStudent("Baburao", 100);
 classRoom.addStudent("Raju", 92);
 classRoom.addStudent("Shyam", 78);
 classRoom.addStudent("Ritik", 87);
+classRoom.addStudent("Rahul", 90);
 
 console.log(classRoom.getTopper());
 console.log(classRoom.getAverageMarks());
