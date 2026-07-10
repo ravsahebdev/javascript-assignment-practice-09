@@ -615,6 +615,7 @@ const cart = new ShoppingCart();
 cart.addItem("iPhone", 70000);
 cart.addItem("Motorola", 20000);
 cart.addItem("Redmi", 22000);
+cart.addItem("Vivo", 32000);
 cart.removeItem(1);
 console.log(cart.items);
 console.log(cart.getTotal());
