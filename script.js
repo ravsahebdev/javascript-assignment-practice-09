@@ -721,8 +721,8 @@ console.log(typeof Person01); // function
 Array.prototype.last = function () {
         return this[this.length - 1];
 }
-let ar = [1, 2, 3];
-console.log(ar.last());
+let arrl = [1, 2, 3];
+console.log(arrl.last());
 
 //  Question 30 — Complete School Management System (Interview-Level)
 // Create: class Student
