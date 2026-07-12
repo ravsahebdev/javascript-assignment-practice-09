@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JavaScript Practice Session 04</title>
+    <title>JavaScript Assignment Practice 09</title>
 
     <style>
         * {
@@ -22,52 +22,58 @@
             align-items: center;
             background: #0f172a;
             color: #ffffff;
-            padding: 26px;
+            padding: 30px;
         }
 
         .container {
             width: 100%;
-            max-width: 900px;
+            max-width: 950px;
             background: #1e293b;
-            padding: 40px;
+            padding: 45px;
             border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, .08);
+            box-shadow: 0 18px 45px rgba(0, 0, 0, .35);
         }
 
         h1 {
             text-align: center;
             color: #38bdf8;
-            font-size: 2.2rem;
-            margin-bottom: 10px;
+            font-size: 3rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: .5px;
         }
 
         .count {
             text-align: center;
             color: #facc15;
+            font-size: 1.3rem;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .description {
-            max-width: 750px;
-            margin: 0 auto 30px;
+            max-width: 780px;
+            margin: auto;
             text-align: center;
-            color: #cbd5e1;
-            line-height: 1.8;
+            color: #dbeafe;
+            font-size: 1.12rem;
+            line-height: 1.9;
+            margin-bottom: 35px;
         }
 
         .info-box {
             background: #0f172a;
-            padding: 25px;
+            padding: 28px;
             border-left: 5px solid #38bdf8;
-            border-radius: 12px;
-            margin-bottom: 25px;
+            border-radius: 14px;
+            margin-bottom: 28px;
         }
 
         .info-box h2 {
             color: #ffffff;
-            margin-bottom: 15px;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
+            margin-bottom: 18px;
         }
 
         .info-box ul {
@@ -75,9 +81,10 @@
         }
 
         .info-box li {
-            padding: 11px 0;
-            color: #cbd5e1;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 14px 0;
+            font-size: 1.08rem;
+            color: #d1d5db;
+            border-bottom: 1px solid rgba(255, 255, 255, .08);
         }
 
         .info-box li:last-child {
@@ -87,150 +94,171 @@
         .structure {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 12px;
+            gap: 15px;
         }
 
         .level {
             background: #1e293b;
-            padding: 18px;
-            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, .08);
+            border-radius: 12px;
+            padding: 22px;
             text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: .3s;
+        }
+
+        .level:hover {
+            transform: translateY(-4px);
+            border-color: #38bdf8;
         }
 
         .level strong {
             display: block;
             color: #facc15;
-            margin-bottom: 7px;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
         }
 
         .level span {
-            color: #cbd5e1;
-            font-size: 0.9rem;
-            line-height: 1.5;
+            color: #dbeafe;
+            font-size: 1rem;
+            line-height: 1.6;
         }
 
         .note {
             background: #334155;
-            padding: 20px;
+            padding: 22px;
             border-left: 5px solid #22c55e;
-            border-radius: 12px;
-            line-height: 1.8;
-            color: #e2e8f0;
-            margin-bottom: 25px;
-        }
-
-        .note strong {
-            color: #ffffff;
+            border-radius: 14px;
+            color: #f8fafc;
+            line-height: 1.9;
+            font-size: 1.05rem;
+            margin-bottom: 30px;
         }
 
         footer {
             text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, .08);
+            padding-top: 20px;
             color: #94a3b8;
-            padding-top: 5px;
-            font-size: 0.95rem;
+            line-height: 1.8;
         }
 
         footer strong {
             color: #38bdf8;
         }
 
-        @media (max-width: 768px) {
+        @media(max-width:768px) {
+
+            body {
+                padding: 20px;
+            }
 
             .container {
-                padding: 25px;
+                padding: 28px;
             }
 
             h1 {
-                font-size: 1.8rem;
+                font-size: 2.2rem;
+            }
+
+            .count {
+                font-size: 1.05rem;
+            }
+
+            .description {
+                font-size: 1rem;
             }
 
             .structure {
                 grid-template-columns: 1fr;
             }
 
-            .description,
-            .note,
-            .info-box li {
-                font-size: 0.95rem;
+            .info-box h2 {
+                font-size: 1.35rem;
             }
+
+            .info-box li {
+                font-size: 1rem;
+            }
+
         }
     </style>
+
 </head>
 
 <body>
 
     <div class="container">
 
-        <h1>🚀 JavaScript Practice Session 04</h1>
+        <h1>🚀 JavaScript Assignment Practice 09</h1>
 
         <p class="count">
-            30 Questions • Easy → Moderate → Hard
+            30 Structured Problems • Advanced JavaScript & Object-Oriented Programming
         </p>
 
         <p class="description">
-            A structured JavaScript practice session focused on
-            <strong>this binding, prototypes, classes, inheritance,
-            encapsulation</strong> and practical Object-Oriented
-            Programming systems.
+            This assignment is designed to strengthen advanced JavaScript and
+            Object-Oriented Programming skills through 30 structured problems
+            covering execution context, explicit binding, prototype inheritance,
+            ES6 classes, encapsulation, and real-world application design.
         </p>
-
 
         <div class="info-box">
 
             <h2>📚 Topics Covered</h2>
 
             <ul>
-                <li>⚡ this Keyword & Context Binding</li>
+                <li>⚡ <strong>this</strong> Keyword & Context Binding</li>
                 <li>🔗 call(), apply() & bind()</li>
-                <li>🧬 Prototype Chain & Object.create()</li>
-                <li>🏗️ Constructor Functions & Shared Methods</li>
+                <li>🧬 Prototype Chain</li>
+                <li>📖 Object.create() & Prototype Inheritance</li>
+                <li>🏗️ Constructor Functions</li>
                 <li>📦 ES6 Classes, Getters & Setters</li>
-                <li>🌳 Inheritance & Multi-Level Inheritance</li>
+                <li>🌳 Single & Multi-Level Inheritance</li>
                 <li>⚙️ Static Methods & Static Properties</li>
-                <li>🔐 Encapsulation & Private Field</li>
-                <li>🏦 Bank Account & Shopping Cart Systems</li>
-                <li>📚 Library & School Management Systems</li>
+                <li>🔐 Encapsulation & Private Fields</li>
+                <li>🏦 Bank Account System</li>
+                <li>🛒 Shopping Cart System</li>
+                <li>📚 Library Management System</li>
+                <li>🏫 School Management System</li>
             </ul>
 
         </div>
 
-
         <div class="info-box">
 
-            <h2>🎯 Practice Structure</h2>
+            <h2>🎯 Assignment Structure</h2>
 
             <div class="structure">
 
                 <div class="level">
-                    <strong>Q01 — Q10</strong>
-                    <span>Core Concepts</span>
+                    <strong>Q01 – Q10</strong>
+                    <span>Core JavaScript Concepts</span>
                 </div>
 
                 <div class="level">
-                    <strong>Q11 — Q20</strong>
-                    <span>Moderate Concepts</span>
+                    <strong>Q11 – Q20</strong>
+                    <span>Prototype & OOP Concepts</span>
                 </div>
 
                 <div class="level">
-                    <strong>Q21 — Q30</strong>
-                    <span>Advanced OOP & Systems</span>
+                    <strong>Q21 – Q30</strong>
+                    <span>Advanced OOP & Practical Systems</span>
                 </div>
 
             </div>
 
         </div>
 
-
         <div class="note">
-            💡 Open the browser's <strong>Developer Tools (F12)</strong>
-            and navigate to the <strong>Console</strong> tab to view
-            the output of all JavaScript solutions.
+            💡 Open the browser's <strong>Developer Tools (F12)</strong> and
+            navigate to the <strong>Console</strong> tab to view the output of
+            all JavaScript solutions.
         </div>
 
-
         <footer>
-            Built with ❤️ by <strong>Ravsaheb Vagre</strong>
+            <p>Built with <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>Vanilla JavaScript</strong></p>
+            <p>Created by <strong>Ravsaheb Vagre</strong></p>
         </footer>
 
     </div>
