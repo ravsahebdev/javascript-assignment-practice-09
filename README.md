@@ -1,54 +1,57 @@
-# 🚀 JavaScript Practice Session 04
+# 🚀 JavaScript Assignment Practice 09
 
-A structured collection of **30 JavaScript practice problems** focused on advanced JavaScript concepts and Object-Oriented Programming.
+A professional collection of **30 advanced JavaScript assignment problems** focused on Object-Oriented Programming, execution context, prototypes, inheritance, encapsulation, and practical system design.
 
-This session progresses from understanding `this` and explicit binding to prototypes, ES6 classes, inheritance, encapsulation, private fields, and practical class-based systems. :contentReference[oaicite:0]{index=0}
+This assignment is designed to strengthen advanced JavaScript concepts through structured problems that progress from core language fundamentals to real-world OOP implementations.
 
 ---
 
-## 📊 Practice Overview
+## 📖 Assignment Overview
 
-| Level | Questions | Focus |
-|---|---:|---|
-| 🟢 Easy | Q01 – Q10 | Core Concepts |
+| Level | Questions | Focus Area |
+|------|-----------:|------------|
+| 🟢 Easy | Q01 – Q10 | JavaScript Fundamentals |
 | 🟡 Moderate | Q11 – Q20 | Prototypes & Classes |
-| 🔴 Hard | Q21 – Q30 | Advanced OOP & Practical Systems |
-| **Total** | **30** | **Structured Problems** |
+| 🔴 Advanced | Q21 – Q30 | OOP Systems & Application Design |
+
+**Total Problems:** **30**
 
 ---
 
-## 📚 Topics Covered
+# 📚 Topics Covered
 
-### ⚡ `this` Keyword & Context Binding
+## ⚡ JavaScript Execution Context
 
-- Method Calls
+- `this` Keyword
 - Default Binding
 - Implicit Binding
-- Lexical `this`
-- Lost `this` Problem
-- Event Handler Context
-
-### 🔗 `call()`, `apply()` & `bind()`
-
 - Explicit Binding
-- Function Borrowing
-- Passing Arguments with `apply()`
-- Permanently Bound Functions
-- Fixing Lost Context
+- Lost `this`
 
-### 🧬 Prototypes
+---
+
+## 🔗 Function Binding
+
+- `call()`
+- `apply()`
+- `bind()`
+- Function Borrowing
+- Context Binding
+
+---
+
+## 🧬 Prototype System
 
 - Prototype Chain
 - `Object.create()`
 - Constructor Functions
-- Shared Prototype Methods
-- Prototype Relationship Checks
-- Prototype Lookup
-- Custom Prototype Methods
+- Prototype Methods
+- Prototype Inheritance
 
-### 📦 ES6 Classes
+---
 
-- Class Syntax
+## 📦 ES6 Classes
+
 - Constructors
 - Instance Methods
 - Getters
@@ -56,189 +59,101 @@ This session progresses from understanding `this` and explicit binding to protot
 - Static Methods
 - Static Properties
 
-### 🌳 Inheritance
+---
 
-- Parent and Child Classes
-- `extends`
-- Inherited Methods
+## 🌳 Object-Oriented Programming
+
+- Classes
+- Inheritance
 - Multi-Level Inheritance
-- Reusable Class Structures
-
-### 🔐 Encapsulation
-
+- Encapsulation
 - Private Fields
-- Controlled Data Access
-- Validation Logic
-- Class-Based State Management
 
 ---
 
-## 🧩 Question Progression
+# 🏗 Practical Systems Built
 
-### 🟢 Q01 – Q10: Core Concepts
-
-The first section focuses on understanding JavaScript execution context and object behavior.
-
-Topics include:
-
-- Method and `this`
-- Default Binding
-- Object Methods
-- `call()`
-- `apply()`
-- `bind()`
-- Arrow Function `this`
-- Event Handler Context
-- Constructor Functions
-- Prototype Lookup
-
----
-
-### 🟡 Q11 – Q20: Moderate Concepts
-
-The second section moves into prototype relationships and class-based programming.
-
-Topics include:
-
-- Fixing Lost `this`
-- Method Borrowing
-- `Math.max()` with `apply()`
-- Prototype Inheritance
-- Shared Prototype Methods
-- Prototype Relationship Verification
-- Student Class
-- Car Class
-- Getters
-- Setters
-
----
-
-### 🔴 Q21 – Q30: Advanced OOP & Systems
-
-The final section focuses on advanced Object-Oriented Programming and practical system design.
-
-Topics include:
-
-- Employee Inheritance
-- Multi-Level Animal Hierarchy
-- Static Methods
-- Static Properties
-- Bank Account System
-- Shopping Cart System
-- Library Management System
-- Class and Prototype Investigation
-- Custom Array Method
-- Complete School Management System
-
----
-
-## 💻 Practical Systems Implemented
+This assignment includes multiple real-world implementations.
 
 ### 🏦 Bank Account System
 
-A class-based account system demonstrating:
+- Deposit
+- Withdraw
+- Private Balance
+- Validation
+- Balance Management
 
-- Private balance state
-- Deposit validation
-- Withdrawal validation
-- Insufficient balance handling
-- Controlled balance access
+---
 
 ### 🛒 Shopping Cart System
 
-A practical cart implementation featuring:
+- Add Items
+- Remove Items
+- Calculate Total
+- Item Management
 
-- Add Item
-- Remove Item
-- Unique Item IDs
-- Cart State Management
-- Total Price Calculation
+---
 
 ### 📚 Library Management System
 
-A structured class-based system using separate `Book` and `Library` classes with functionality for:
+- Add Books
+- Borrow Books
+- Return Books
+- Availability Management
 
-- Adding Books
-- Borrowing Books
-- Returning Books
-- Book Availability Validation
+---
 
 ### 🏫 School Management System
-
-The final challenge combines multiple concepts into a complete class-based system with:
 
 - Student Management
 - Teacher Management
 - Topper Calculation
-- Average Marks Calculation
-- Arrays of Class Instances
-- Real-World OOP Design
+- Average Marks
+- Complete School Object Model
 
 ---
 
-## 🛠️ Technologies Used
+# 🎯 Learning Objectives
+
+This assignment strengthens understanding of:
+
+- JavaScript Object Model
+- Execution Context
+- Function Context
+- Prototype Inheritance
+- ES6 Classes
+- Object-Oriented Programming
+- Encapsulation
+- Code Reusability
+- Application Design
+- Real-World Problem Solving
+
+---
+
+# 💻 Technologies Used
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
-
-No external JavaScript frameworks or libraries are required.
+- Vanilla JavaScript (ES6+)
 
 ---
 
-## 🧠 JavaScript Concepts Practiced
+# 🌐 Live Demo
 
-- `this`
-- Default Binding
-- Implicit Binding
-- Explicit Binding
-- Lexical `this`
-- `call()`
-- `apply()`
-- `bind()`
-- Constructor Functions
-- Prototype Chain
-- `Object.create()`
-- ES6 Classes
-- Getters and Setters
-- Static Members
-- Inheritance
-- Multi-Level Inheritance
-- Private Fields
-- Encapsulation
-- Array Methods
-- Application State Management
-- Object-Oriented System Design
+https://ravsahebdev.github.io/javascript-assignment-practice-09/
 
 ---
 
-## 🌐 Live Demo
+# 💻 GitHub Repository
 
-https://ravsahebdev.github.io/javascript-practice-session-04/
-
----
-
-## 💻 GitHub Repository
-
-https://github.com/ravsahebdev/javascript-practice-session-04
+https://github.com/ravsahebdev/javascript-assignment-practice-09
 
 ---
 
-## 🖥️ How to View the Output
-
-The JavaScript solutions execute in the browser console.
-
-1. Open the Live Demo.
-2. Open Developer Tools using `F12`.
-3. Navigate to the **Console** tab.
-4. Review the output of each JavaScript solution.
-
----
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-javascript-practice-session-04/
+javascript-assignment-practice-09/
 │
 ├── index.html
 ├── script.js
@@ -247,45 +162,83 @@ javascript-practice-session-04/
 
 ---
 
-## 🎯 Practice Objectives
+# ▶️ How to Run
 
-This session focuses on strengthening:
+1. Clone the repository
 
-- JavaScript execution context understanding
-- Function context control
-- Prototype-based inheritance
-- Object-Oriented Programming
-- Reusable class design
+```bash
+git clone https://github.com/ravsahebdev/javascript-assignment-practice-09.git
+```
+
+2. Open the project folder.
+
+3. Launch **index.html** in your browser.
+
+4. Open **Developer Tools (F12)**.
+
+5. Navigate to the **Console** tab to view the output of all assignment solutions.
+
+---
+
+# 📈 Assignment Progression
+
+### 🟢 Questions 01 – 10
+
+Focuses on:
+
+- `this`
+- Method Calls
+- Context Binding
+- call()
+- apply()
+- bind()
+
+---
+
+### 🟡 Questions 11 – 20
+
+Focuses on:
+
+- Constructor Functions
+- Prototype Chain
+- Object.create()
+- ES6 Classes
+- Getters
+- Setters
+
+---
+
+### 🔴 Questions 21 – 30
+
+Focuses on:
+
+- Inheritance
+- Static Members
 - Encapsulation
-- Business logic validation
-- Application state management
-- Real-world system modeling
-- Clean and maintainable JavaScript
+- Private Fields
+- Practical OOP Systems
+- Application Design
 
 ---
 
-## 🔗 JavaScript Practice Series
+# 🎯 Assignment Goal
 
-This repository is part of my ongoing JavaScript problem-solving and implementation series.
+The purpose of this assignment is to build a solid understanding of JavaScript's object-oriented features by implementing practical examples instead of relying only on theoretical concepts.
 
-**Session 01** focused on core JavaScript problem solving with arrays, objects, functions, and a Library Management challenge.
-
-**Session 02** focused specifically on Object-Oriented JavaScript fundamentals, including `this`, explicit binding, prototypes, classes, inheritance, and encapsulation.
-
-**Session 03** expanded problem-solving practice through 80 structured exercises across arrays, objects, functions, and combined application-oriented logic.
-
-**Session 04** deepens advanced JavaScript and OOP understanding through 30 progressive problems and practical class-based systems.
+Each problem introduces concepts that are commonly used while developing scalable JavaScript applications.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ravsaheb Vagre**
 
-GitHub: https://github.com/ravsahebdev
+**GitHub**
+https://github.com/ravsahebdev
 
-LinkedIn: https://www.linkedin.com/in/ravsaheb-vagre-47b86a35a
+**LinkedIn**
+https://www.linkedin.com/in/ravsaheb-vagre-47b86a35a
 
 ---
 
-⭐ If you find this practice repository useful, consider giving it a **Star**.
+⭐ If you found this repository useful, consider giving it a **Star**.
